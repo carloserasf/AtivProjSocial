@@ -1,0 +1,85 @@
+/* BOTÕES */
+button,
+.btn {
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: var(--fs-2);
+}
+
+button:hover {
+  background: var(--cor-secundaria);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:disabled {
+  background: var(--cor-neutra-3);
+  cursor: not-allowed;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: var(--sp-3);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #0002;
+}
+
+/* TAGS */
+.tag {
+  padding: 4px 10px;
+  background: var(--cor-neutra-2);
+  border-radius: 20px;
+  font-size: var(--fs-1);
+  display: inline-block;
+}
+
+/* FORMULÁRIOS */
+input, select {
+  padding: var(--sp-2);
+  width: 100%;
+  border: 1px solid var(--cor-neutra-3);
+  border-radius: 6px;
+}
+
+input:focus, select:focus {
+  border-color: var(--cor-primaria);
+  outline: none;
+}
+
+/* Feedback */
+.alert {
+  padding: var(--sp-2);
+  margin-top: var(--sp-2);
+  border-radius: 4px;
+}
+
+.alert-sucesso {
+  background: var(--cor-sucesso);
+  color: white;
+}
+
+.alert-erro {
+  background: var(--cor-erro);
+  color: white;
+}
+
+/* MENU MOBILE (esconde desktop) */
+.menu-mobile {
+  display: none;
+  background: var(--cor-secundaria);
+  padding: var(--sp-2);
+}
+
+.menu-mobile button {
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: var(--fs-4);
+}

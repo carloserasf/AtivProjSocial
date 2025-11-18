@@ -1,0 +1,32 @@
+/* 1200px */
+@media (max-width: 1200px) {
+  body { font-size: 15px; }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+  .col-6 { grid-column: span 12; }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+}
+
+/* 600px */
+@media (max-width: 600px) {
+  body { font-size: 14px; }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .card {
+    padding: var(--sp-2);
+  }
+}

@@ -1,0 +1,45 @@
+/* Layout geral */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: var(--sp-2);
+}
+
+/* Header com menu */
+header {
+  background: var(--cor-primaria);
+  padding: var(--sp-2);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* GRID PRINCIPAL (12 colunas) */
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--sp-3);
+}
+
+.col-6 { grid-column: span 6; }
+.col-4 { grid-column: span 4; }
+.col-12 { grid-column: span 12; }
+
+/* Footer */
+footer {
+  background: var(--cor-secundaria);
+  padding: var(--sp-3);
+  text-align: center;
+  color: white;
+}
