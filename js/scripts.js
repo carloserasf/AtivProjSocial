@@ -1,0 +1,6 @@
+document.getElementById("btn-contraste").onclick = function () {
+  document.body.classList.toggle("alto-contraste");
+};
+document.getElementById("dark-mode").onclick = () => {
+  document.body.classList.toggle("dark-mode");
+};

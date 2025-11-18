@@ -41,3 +41,19 @@ button {
     padding: 10px;
     cursor: pointer;
 }
+:root {
+  --cor-fundo: #ffffff;
+  --cor-texto: #111111;
+  --cor-primaria: #1a73e8;
+  --cor-secundaria: #0b4c94;
+  --cor-alto-contraste-fundo: #000000;
+  --cor-alto-contraste-texto: #ffffff;
+}
+.alto-contraste {
+  background: #000 !important;
+  color: #fff !important;
+}
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
